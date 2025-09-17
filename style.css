@@ -1,0 +1,65 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1d3557, #457b9d);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  width: 80%;
+  max-width: 900px;
+}
+
+.form-section, .preview-section {
+  flex: 1;
+}
+
+h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a8dadc;
+  padding-bottom: 5px;
+}
+
+/* Inputs */
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Live Preview Box */
+.preview-box {
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 200px;
+  font-family: 'Roboto Mono', monospace;  /* Different font for preview */
+}
+
+.preview-box p {
+  margin: 10px 0;
+}

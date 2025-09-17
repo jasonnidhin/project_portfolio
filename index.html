@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Feedback Form -->
+    <div class="form-section">
+      <h2>Feedback Form</h2>
+      <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Your Message</label>
+        <textarea id="message" placeholder="Write your feedback..."></textarea>
+      </form>
+    </div>
+
+    <!-- Live Preview -->
+    <div class="preview-section">
+      <h2>Live Preview</h2>
+      <div class="preview-box">
+        <p><strong>Name:</strong> <span id="previewName">---</span></p>
+        <p><strong>Email:</strong> <span id="previewEmail">---</span></p>
+        <p><strong>Message:</strong></p>
+        <p id="previewMessage">---</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
